@@ -9,7 +9,7 @@
 Static website for a cars' brand.
 
 Design mockup
-
+![alt text](https://github.com/emelyalonzo/cars/blob/master/images/enunciado.jpg?raw=true)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 It is not uploaded to the web yet, but it is possible to see it through the Live Server plugging of VSCode.
