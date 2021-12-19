@@ -1,0 +1,19 @@
+@import './utilities/mixins';
+@import './utilities/responsive';
+
+@import './block/header';
+@import './block/home';
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .home {
+        background-image: url('../images/redCar.jpg');
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+}

@@ -1,0 +1,5 @@
+.home {
+    @include fullContainer();
+    @include flexCenter(column, flex-end, flex-start, center, nowrap);
+
+}
