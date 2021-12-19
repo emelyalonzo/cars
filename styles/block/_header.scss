@@ -1,0 +1,38 @@
+header {
+    @include flexCenter(row, center, center, center, wrap);
+    
+    position: fixed;
+    width: 100%;
+    margin:0;
+    .header {
+        @include flexCenter(row, space-between, center, center, wrap);
+        background-color: rgba(0, 0, 0, 0.226);
+        width: 72%;
+        nav{
+            a{
+                margin: 0 1rem;
+                text-decoration: none;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        &__content {
+            align-self: center;
+            @include flexCenter(row, space-evenly, center, center, nowrap);
+            img {
+                height: auto;
+                width: 90px;
+            }
+            a {
+                padding: 1rem 2.5rem;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+
+        }
+    }
+    
+}

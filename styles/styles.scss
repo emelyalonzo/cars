@@ -1,0 +1,25 @@
+@import './utilities/mixins';
+
+@import './block/header';
+@import './block/home';
+@import './block/content';
+@import './block/footer';
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+
+    .home {
+        background-image: url('../images/bmwportrait.jpg');
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+}
