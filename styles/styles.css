@@ -1,4 +1,3 @@
-/*This size or smaller*/
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -481,7 +480,7 @@ header .header__content a {
       align-content: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  background-color: lightgray;
+  background-color: #e2e2e2;
   height: 150px;
   width: 250px;
   color: gray;
@@ -490,6 +489,78 @@ header .header__content a {
 
 .content__btn__unit p {
   font-weight: 500;
+}
+
+footer .footerContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: lightgray;
+  padding: 4rem 0;
+}
+
+footer .footerContent h4 {
+  text-transform: capitalize;
+  margin: 0 0 1rem 0;
+}
+
+footer .footerContent a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: gray;
+}
+
+footer .footerContent a:hover {
+  font-weight: 700;
+}
+
+footer .footerCopy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1rem 10rem;
+  font-weight: 500;
+}
+
+footer .footerCopy__links a {
+  margin: 0 1rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: gray;
+  font-weight: 500;
+}
+
+footer .footerCopy__links a:hover {
+  text-decoration: underline;
 }
 
 body {

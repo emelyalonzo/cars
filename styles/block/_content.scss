@@ -145,7 +145,7 @@
         @include flexCenter(row, space-between, flex-start, center, wrap);
         &__unit {
             @include flexCenter(column, center, center, flex-start, nowrap);
-            background-color: rgb(211, 211, 211);
+            background-color: rgb(226, 226, 226);
             height: 150px;
             width: 250px;
             color: gray;

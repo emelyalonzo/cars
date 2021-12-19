@@ -1,0 +1,38 @@
+footer {
+    
+    .footerContent {
+        @include flexCenter(row, space-evenly, flex-start, center, wrap);
+        background-color: rgb(211, 211, 211);
+        padding: 4rem 0;
+        h4 {
+            text-transform: capitalize;
+            margin: 0 0 1rem 0;
+        }
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            font-weight: 500;
+            color: gray;
+            &:hover {
+                font-weight: 700;
+            }
+        }
+    }
+    .footerCopy {
+        @include flexCenter(row, space-between, center, center, wrap);
+        padding: 1rem 10rem;
+        font-weight: 500;
+        &__links {
+            a {
+                margin: 0 1rem;
+                text-transform: capitalize;
+                text-decoration: none;
+                color: gray;
+                font-weight: 500;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

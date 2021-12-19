@@ -1,9 +1,9 @@
 @import './utilities/mixins';
-@import './utilities/responsive';
 
 @import './block/header';
 @import './block/home';
 @import './block/content';
+@import './block/footer';
 
 body {
     display: flex;
