@@ -3,6 +3,7 @@
 
 @import './block/header';
 @import './block/home';
+@import './block/content';
 
 body {
     display: flex;
@@ -11,8 +12,13 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+    img {
+        width: 200px;
+        height: auto;
+    }
+
     .home {
-        background-image: url('../images/redCar.jpg');
+        background-image: url('../images/bmwportrait.jpg');
         background-repeat: no-repeat;
         margin: 0;
     }

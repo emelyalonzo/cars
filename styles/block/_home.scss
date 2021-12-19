@@ -1,5 +1,28 @@
 .home {
     @include fullContainer();
     @include flexCenter(column, flex-end, flex-start, center, nowrap);
+    color: white;
+    text-transform: uppercase;
+    h1 {
+        margin: 0 0 1rem 5rem;
+        font-size: 3rem;
+    }
+    h3 {
+        margin: 0 0 1rem 5rem;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    a {
+        margin: 0 0 3rem 5rem;
+        background-color: rgb(37, 88, 255);
+        padding: 1rem 6rem;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        color: white;
+        &:hover {
+            background-color: rgba(37, 88, 255, 0.514);
+        }
+    }
 
 }

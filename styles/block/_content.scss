@@ -1,0 +1,66 @@
+.content {
+    margin: 150px 0 0 0;
+    @include flexCenter(column, space-between, center, center, nowrap);
+    h2 {
+        font-size: 1rem;
+        text-transform: capitalize;
+        width: 70%;
+        color: rgb(158, 158, 158);
+    }
+    &__head {
+        width: 70%;
+        nav {
+            @include flexCenter(row, space-between, center, center, nowrap);
+            font-size: 1rem;
+            a {
+                text-decoration: none;
+                text-transform: capitalize;
+                font-weight: bold;
+                color: rgb(158, 158, 158);
+                padding: 0 1rem;
+                &:hover {
+                    font-size: 1.6rem;
+                    text-decoration: underline;
+                    text-decoration-color: blue;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    &__gallery {
+        width: 70%;
+        margin-bottom: 5rem;
+        @include flexCenter(row, flex-start, center, center, wrap);
+        &__unit {
+            @include flexCenter(column, flex-start, baseline, flex-start, nowrap);
+            margin: 0.5rem;
+            width: 240px;
+            height: 350px;
+            img {
+                width: 240px;
+                height: 160px;
+            }
+            h3{
+                margin: 0;
+            }
+            p {
+                color: gray;
+                margin: 0.2rem 0 1rem 0;
+            }
+            a{
+                text-decoration: none;
+                text-transform: capitalize;
+                font-weight: bold;
+                font-size: 0.9rem;
+                color: black;
+                &::before {
+                    content: ">";
+                }
+                &:hover {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
